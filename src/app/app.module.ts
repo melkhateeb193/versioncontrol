@@ -6,14 +6,15 @@ import { AppComponent } from './app.component';
 import { ProductsComponent } from './Components/products/products.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContactusComponent,
     ProductsComponent,
-    NotFoundComponent
-
+    NotFoundComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
